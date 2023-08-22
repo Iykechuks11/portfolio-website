@@ -1,0 +1,17 @@
+function runTypingEffect() {
+  const text = 'I am John Chukwu';
+  const typingElement = document.getElementById('typing-text');
+  const typingDelay = 100;
+
+  typeText(text, typingElement, typingDelay);
+}
+
+function typeText(text, element, delay) {
+  for (let i = 0; i < text.length; i++) {
+    setTimeout(() => {
+      element.textContent += text.charAt(i);
+    }, delay * i);
+  }
+}
+
+document.addEventListener('DOMContentLoaded', runTypingEffect);
