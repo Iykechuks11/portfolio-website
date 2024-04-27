@@ -1,5 +1,6 @@
 function runTypingEffect() {
-  const text = 'I am John Chukwu';
+  const text = 'C . I John 🎓';
+  // const text = 'Working on Cryptography and Information Security';
   const typingElement = document.getElementById('typing-text');
   const typingDelay = 100;
 
