@@ -32,6 +32,10 @@
   width: 200px;
 }
 
+#about-me {
+  text-align: start !important;
+}
+
 // PROJECTS
 .project:hover {
   transform: scale(1.05);
@@ -73,6 +77,10 @@
   // ABOUT
   .about-content {
     flex-direction: column;
+  }
+
+  #about-me {
+    text-align: center !important;
   }
 
   // STATS
