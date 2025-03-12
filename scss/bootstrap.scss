@@ -1,13 +1,13 @@
-// Font
+// font
 $font-family-sans-serif: 'Poppins', sans-serif;
 
-// Color
-$primary: #cc0057;
-$secondary: #990047;
+// color
+$primary: #1b4d3e;
+$secondary: #a3d9a5;
 $dark: #000;
 $light: #f4f4f4;
 
-// Buttons
+// buttons
 $button-radius: 0;
 $button-padding-x: 30px;
 $button-padding-y: 12px;
@@ -24,7 +24,7 @@ $btn-padding-x-sm: $button-padding-x;
 
 $navbar-toggler-border-radius: 5px;
 
-// Spacing
+// spacing
 $spacer: 1rem !default;
 $spacers: (
   0: 0,
@@ -38,7 +38,7 @@ $spacers: (
   8: $spacer * 12,
 ) !default;
 
-// Container
+// container
 $container-max-widths: (
   sm: 540px,
   md: 720px,
